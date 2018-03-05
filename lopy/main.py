@@ -19,4 +19,5 @@ for net in nets:
             machine.idle()
         print("Connected to network")
 
-print(tiny_http.get_request("192.168.0.10", 5000, "/"))
+# Example tiny_http usage
+# print(tiny_http.get_request("192.168.0.10", 5000, "/"))
