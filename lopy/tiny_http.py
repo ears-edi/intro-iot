@@ -36,4 +36,5 @@ def get_request(host, port, endpoint):
     while data != b"":
         data = s.recv(100)
         total += data
+    s.close()
     return parse_return_data(total)
